@@ -1,0 +1,19 @@
+<mxfile host="65bd71144e">
+    <diagram id="LlCgk6N5DpQ6fTrNwEH6" name="Page-1">
+        <mxGraphModel dx="608" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="AddressBookService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="150" width="170" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="- address_book&#10;- selected_record&#10;- searched_records&#10;- storage&#10;- handlers&#10;&#10;+ get_handler()&#10;+ handle()&#10;- handle_select_request()&#10;- handle_select_record()&#10;- handle_search_selecting()&#10;- handle_add()&#10;- handle_add_phone()&#10;- handle_set_email()&#10;- handle_set_address()&#10;- handle_set_birthday()&#10;- handle_change()&#10;- handle_phone()&#10;- handle_delete()&#10;- handle_search()&#10;- handle_show_selected()&#10;- handle_save()&#10;- handle_open()&#10;- handle_exit()&#10;- handle_help()&#10;- handle_unknown()&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="26" width="170" height="384" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="address_book_service" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="100" width="390" height="510" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

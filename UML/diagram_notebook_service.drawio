@@ -1,0 +1,27 @@
+<mxfile host="65bd71144e">
+    <diagram id="4x5unM3kTJcnwiNEC_KP" name="Page-1">
+        <mxGraphModel dx="601" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Service" style="swimlane;fontStyle=2" vertex="1" parent="1">
+                    <mxGeometry x="310" y="170" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="NoteBookService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="344" y="320" width="170" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="- notebook&#10;- searched_notes&#10;- selected+note&#10;- storage&#10;- handlers&#10;&#10;- get_handler()&#10;+ handle()&#10;-  handle_add()&#10;- handle_add_tags()&#10;- handle_select_request()&#10;- handle_search_selecting()&#10;-  handle_select_note()&#10;- handle_search()&#10;- handle_search_by_tag()&#10;- handle_sort_by_tag()&#10;- handle_delete()&#10;- handle_change()&#10;- handle_show_selected()&#10;- handle_show_all()&#10;- handle_exit()&#10;- handle_help()&#10;- handle_unknown()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3">
+                    <mxGeometry y="26" width="170" height="354" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Container" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="80" width="350" height="700" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
